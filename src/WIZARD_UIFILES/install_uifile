@@ -1,0 +1,134 @@
+[
+  {
+    "step_title": "Choose your apps",
+    "items": [
+      {
+        "type": "multiselect",
+        "desc": "Choose the apps you run on this NAS. A shortcut is added to the DSM main menu for each one.",
+        "subitems": [
+          {
+            "key": "wiz_sonarr",
+            "desc": "Sonarr",
+            "defaultValue": true
+          },
+          {
+            "key": "wiz_radarr",
+            "desc": "Radarr",
+            "defaultValue": true
+          },
+          {
+            "key": "wiz_prowlarr",
+            "desc": "Prowlarr",
+            "defaultValue": true
+          },
+          {
+            "key": "wiz_bazarr",
+            "desc": "Bazarr",
+            "defaultValue": false
+          },
+          {
+            "key": "wiz_tdarr",
+            "desc": "Tdarr",
+            "defaultValue": false
+          },
+          {
+            "key": "wiz_bookshelf",
+            "desc": "Bookshelf / Readarr",
+            "defaultValue": false
+          },
+          {
+            "key": "wiz_calibre",
+            "desc": "Calibre",
+            "defaultValue": false
+          },
+          {
+            "key": "wiz_calibreweb",
+            "desc": "Calibre-Web",
+            "defaultValue": false
+          },
+          {
+            "key": "wiz_spotweb",
+            "desc": "Spotweb",
+            "defaultValue": false
+          },
+          {
+            "key": "wiz_homarr",
+            "desc": "Homarr",
+            "defaultValue": false
+          },
+          {
+            "key": "wiz_wud",
+            "desc": "WUD (What's Up Docker)",
+            "defaultValue": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step_title": "Ports",
+    "items": [
+      {
+        "type": "textfield",
+        "desc": "Port of each app. Prefix with https: for apps served over HTTPS (for example https:8091).",
+        "subitems": [
+          {
+            "key": "wiz_sonarr_port",
+            "desc": "Sonarr",
+            "defaultValue": "8989"
+          },
+          {
+            "key": "wiz_radarr_port",
+            "desc": "Radarr",
+            "defaultValue": "7878"
+          },
+          {
+            "key": "wiz_prowlarr_port",
+            "desc": "Prowlarr",
+            "defaultValue": "9696"
+          },
+          {
+            "key": "wiz_bazarr_port",
+            "desc": "Bazarr",
+            "defaultValue": "6767"
+          },
+          {
+            "key": "wiz_tdarr_port",
+            "desc": "Tdarr",
+            "defaultValue": "8265"
+          },
+          {
+            "key": "wiz_bookshelf_port",
+            "desc": "Bookshelf / Readarr",
+            "defaultValue": "8787"
+          },
+          {
+            "key": "wiz_calibre_port",
+            "desc": "Calibre",
+            "defaultValue": "8080"
+          },
+          {
+            "key": "wiz_calibreweb_port",
+            "desc": "Calibre-Web",
+            "defaultValue": "8083"
+          },
+          {
+            "key": "wiz_spotweb_port",
+            "desc": "Spotweb",
+            "defaultValue": "8085"
+          },
+          {
+            "key": "wiz_homarr_port",
+            "desc": "Homarr",
+            "defaultValue": "7575"
+          },
+          {
+            "key": "wiz_wud_port",
+            "desc": "WUD (What's Up Docker)",
+            "defaultValue": "3000"
+          }
+        ]
+      }
+    ]
+  }
+]

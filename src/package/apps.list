@@ -1,0 +1,11 @@
+sonarr|Sonarr|8989
+radarr|Radarr|7878
+prowlarr|Prowlarr|9696
+bazarr|Bazarr|6767
+tdarr|Tdarr|8265
+bookshelf|Bookshelf / Readarr|8787
+calibre|Calibre|8080
+calibreweb|Calibre-Web|8083
+spotweb|Spotweb|8085
+homarr|Homarr|7575
+wud|WUD (What's Up Docker)|3000
